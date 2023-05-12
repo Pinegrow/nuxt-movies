@@ -7,3 +7,11 @@ dist
 .nitro
 .DS_Store
 .idea
+
+/*.d.ts
+  
+#Pinegrow
+_pgbackup
+_pginfo
+#optional
+pinegrow.json 

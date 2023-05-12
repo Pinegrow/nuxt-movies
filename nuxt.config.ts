@@ -5,17 +5,27 @@ const apiBaseUrl = 'https://movies-proxy.vercel.app'
 
 export default defineNuxtConfig({
   modules: [
+    '@pinegrow/nuxt-module',
     '@vueuse/nuxt',
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxt/image-edge',
     '@nuxtjs/i18n',
   ],
+  pinegrow: {
+    liveDesigner: {
+      // ...
+    },
+  },
   experimental: {
     inlineSSRStyles: false,
   },
   routeRules: {
-    '/**': isDev ? {} : { cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } },
+    '/**': isDev
+      ? {}
+      : {
+          cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true },
+        },
   },
   runtimeConfig: {
     public: {
