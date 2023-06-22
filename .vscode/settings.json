@@ -1,5 +1,6 @@
 {
-  "cSpell.words": [
-    "TMDB"
-  ]
+  "search.exclude": {
+    "**/_pgbackup": true
+  },
+  "cSpell.words": ["TMDB"]
 }

@@ -1,8 +1,13 @@
 <br><p align="center">
 <img height="100px" src="./public/movies.webp" />
+
 </p>
 
 <h1 align="center">Nuxt Movies</h1>
+<br>
+
+> This is a fork of https://github.com/nuxt/movies, and pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) and other goodies for Vue Designer.<br><br>**Vue Designer** is a desktop visual editor for Mac, Windows and Linux that lets you visually design your Vue applications. Take it for a free trial at [Vue Designer](https://pinegrow.com/vue-designer)!<br><br>
+
 <br>
 
 > Movies app demo built using [Nuxt 3](https://github.com/nuxt/nuxt), [Vue 3](https://github.com/vuejs/core), [UnoCSS](https://github.com/unocss/unocss), [Image Module](https://v1.image.nuxtjs.org), [The Movie Database](https://www.themoviedb.org) [API](https://www.themoviedb.org/documentation/api) and [TypeScript](https://github.com/microsoft/TypeScript).
@@ -22,7 +27,7 @@ Check [proxy/README](./proxy)
 
 ## Setup
 
-``` bash
+```bash
 # Enable pnpm
 $ corepack enable
 
