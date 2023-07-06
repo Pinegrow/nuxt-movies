@@ -6,7 +6,7 @@
 <h1 align="center">Nuxt Movies</h1>
 <br>
 
-> This is a fork of https://github.com/nuxt/movies, and pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) and other goodies for Vue Designer.<br><br>**Vue Designer** is a desktop visual editor for Mac, Windows and Linux that lets you visually design your Vue applications. Take it for a free trial at [Vue Designer](https://pinegrow.com/vue-designer)!<br><br>
+> This is a fork of https://github.com/nuxt/movies, and pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) and other goodies for Vue Designer.<br><br>**Vue Designer** is a desktop visual editor for Mac, Windows and Linux that lets you visually design your Vue applications. Take it for a free trial at [Vue Designer](https://vuedesigner.com)!<br><br>
 
 <br>
 
