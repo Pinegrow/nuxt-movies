@@ -4,6 +4,10 @@
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
+    "now": "npm run build && npm run preview",
+    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:3000",
+    "lighthouse": "npx unlighthouse --no-cache --site https://movies.nuxt.space",
+    "preview": "nuxi preview",
     "dev:proxy": "cd proxy && pnpm dev",
     "start": "node .output/server/index.mjs",
     "postinstall": "nuxi prepare",
