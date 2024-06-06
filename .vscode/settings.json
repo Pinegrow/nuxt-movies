@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "**/_pgbackup": true,
+    ".nuxt": true,
+    ".output": true,
+    "dist": true,
+    ".unlighthouse": true
+  },
+  "cSpell.words": ["TMDB"]
+}
